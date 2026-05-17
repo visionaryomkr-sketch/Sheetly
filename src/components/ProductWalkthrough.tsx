@@ -154,8 +154,8 @@ export default function ProductWalkthrough() {
       description: "The Dashboard is your command center. The moment you open Sheetly, you see everything that matters — today's tasks, pending invoices, recent client activity, and your financial summary — all automatically pulled from every other tab. No manual updates needed.",
       bullets: ["See exactly what needs your attention right now, including upcoming deadlines and overdue invoices.", "Plan ahead without opening a single other tab.", "Instantly view selected client's details, last communication, and invoice status.", "Filter invoices by status:— Fully Paid, Unpaid, Part-Paid — and see payment overview for any date range.", "Hyperlinks to every tab directly from Dashboard:— Client Management, Communication Log, Task Tracker, Invoices, Calendar, Income Entry, Expense Entry, Monthly View, 12-Month View, Custom View, Reconciliation, Budget, Balance."],
       images: [
-        "src/Images/dashboard-insight.webp",
-        "src/Images/business-dashboard.webp",
+        "public/Images/dashboard-insight.webp",
+        "public/Images/business-dashboard.webp",
       ],
       gradientColors: RAINBOW_GRADIENT
     },
@@ -169,8 +169,8 @@ export default function ProductWalkthrough() {
       description: "A full-featured CRM system built inside your spreadsheet. Store unlimited client profiles with contact details, business information, relationship history, contract dates, payment preferences, and personal notes.",
       bullets: ["Unlimited Client Profiles:— No limit on number of clients.", "Client/Company Name:— Primary identifier linked across all tabs.", "Business Type:— Select from 20+ categories", "Complete Contact Information:— Email, phone number(s), full address.", "Client Status:— Active, Inactive, Completed, Lost, On Hold, Follow-up, Pending, Referral, Prospect, VIP.", "Priority Level:— Know which clients need most attention.", "Payment Method Preference:— UPI, Cash, Bank Transfer, etc. per client", "Last Update Tracking:— Automatically shows when record was last modified.", "Contract Dates:— Start date, end date, contract start, contract end.", "Notes / Preferences / Special Requests:— Free text field for anything important — dietary preferences, communication style, specific requirements", "Client Highlighter:— Search any client instantly and highlight their row", "Filter & Sort:— Filter by status, priority, type, or any column", "Dashboard Integration:— Selected client's details appear on Dashboard automatically"],
       images: [
-        "src/Images/Client-Managnment.webp",
-        "src/Images/client.webp",
+        "public/Images/Client-Managnment.webp",
+        "public/Images/client.webp",
       ],
       isReversed: true,
       gradientColors: "#EC4899, #F97316, #EC4899"
@@ -185,9 +185,9 @@ export default function ProductWalkthrough() {
       description: "A complete invoicing system that lets you create, manage, and track all your invoices in one place. Know exactly who has paid, who hasn't, and how much is still due — at any moment. Never miss a payment again.",
       bullets: ["Transform your invoicing process with your customizable invoice numbers, designed to be auto-sequential for added efficiency!", "Implement a dropdown menu for selecting client names that is seamlessly integrated with the client database.", "Automatic Status Updates effortlessly manage your payment statuses, Fully Paid, Unpaid, Part-Paid, Over-Paid, or Cancelled—ensuring that each status is updated automatically based on the payments you enter.", "Invoice types include Standard Invoice, Offer/Quote, Draft, and Recurring. Each option is designed to meet your unique billing needs efficiently","Experience the convenience of the Selected Client View, where you can effortlessly access all invoices for a single client directly on the Dashboard."],
       images: [
-        "src/Images/Invoice-Tracker.webp",
-        "src/Images/Invoice-Dashboard.webp",
-        "src/Images/Invoice.webp",
+        "public/Images/Invoice-Tracker.webp",
+        "public/Images/Invoice-Dashboard.webp",
+        "public/Images/Invoice.webp",
     
       ],
       gradientColors: "#F97316, #FACC15, #F97316"
@@ -203,8 +203,8 @@ export default function ProductWalkthrough() {
       bullets: ["Task/Project Name:— Clear description of what needs to be done","Client/Company Link:— Connect every task to the relevant client", "Start Date & Due Date:— Full timeline visibility.", "Team Assignment:— Assign to any of your 20 team members.", "Today's Task Counter:— Dashboard shows how many tasks are due today.", "Auto-Sync with Calendar:— Due date added? Task appears on Calendar automatically",  "Once you tick the Completion Checkbox, the task vanishes from your Calendar, but don’t worry—the history remains intact for your reference.", "Connect each task seamlessly to the relevant client, ensuring that every effort is aligned and meaningful. Let's foster strong relationships with you and your client to enhance collaboration."],
       images: [
 
-        "src/Images/Task-Manage.webp",
-        "src/Images/Task-Dashboard.webp",
+        "public/Images/Task-Manage.webp",
+        "public/Images/Task-Dashboard.webp",
       ],
       isReversed: true,
       gradientColors: "#FACC15, #10B981, #FACC15"
@@ -219,8 +219,8 @@ export default function ProductWalkthrough() {
       description: "A full monthly calendar that automatically populates with your tasks, invoices, client follow-ups, and custom appointments. No manual entry into the calendar — it all syncs automatically.",
       bullets: ["Auto-Populated Events:— Tasks, invoices, and communications appear automatically based on due dates.","Custom Entries Section:— Manually add personal appointments, meetings, and training sessions.", "Today's Date Highlighted:— Always know where you are.", " Month's Events Counter:— Total events for selected month at a glance.", "Month & Year Selection:— Navigate to any month instantly.", "Today's Date Highlighted:— Always know where you are.", "Tasks + Communications + Invoices:— All three types visible in one calendar.", "Filter by Status:— Hide completed or cancelled tasks from calendar view.", "Right Side Panel — Full month's task list with due dates for quick scanning."],
       images: [
-        "src/Images/Calender-Insight.webp",
-        "src/Images/calender-deadline.webp",
+        "public/Images/Calender-Insight.webp",
+        "public/Images/calender-deadline.webp",
       ],
       gradientColors: "#10B981, #3B82F6, #10B981"
     },
@@ -234,8 +234,8 @@ export default function ProductWalkthrough() {
       description: "Manage your finances with precision. Track every income, every expense, and every transaction with confidence. Streamline GST calculations and conduct thorough spending analysis. Conquer tax season effortlessly—it’s time to take charge and eliminate any financial uncertainty!",
       bullets: ["Invoice Number:— Link income entry directly to invoice", "Income Category:— From your custom categories set in Setup", "Tax Percentage:— Default 10% or custom per entry", "Net Amount & Tax Amount:— Auto-calculated", "Payment Method:— UPI, Cash, Bank Transfer, Debit Card, PayPal, etc.", "Notes/Details:— Additional information", "Expense ID:— Auto-generated for reference", "Expense Category:— From 40+ custom categories in Setup tab", "Net Amount & Tax Amount:— Auto-calculated", "Payment Method:— Full Indian and International payment method support", "Notes/Details:— Vendor name, purpose, receipt reference", "Direct & Operating Cost Classification:— Know exactly which expenses are business-critical"],
       images: [
-        "src/Images/Bookkeeping.webp",
-        "src/Images/Income.webp",
+        "public/Images/Bookkeeping.webp",
+        "public/Images/Income.webp",
       ],
       isReversed: true,
       gradientColors: "#3B82F6, #8B5CF6, #3B82F6"
@@ -250,10 +250,10 @@ export default function ProductWalkthrough() {
       description: "Select any month and see your complete financial performance — income breakdown by category, expense breakdown by category, profit vs goal, and visual charts. All automatically populated from your Income and Expense entries.",
       bullets: ["Month Selector:— Choose any month instantly", "Amount Type:— Toggle between Total or Net amounts", "Month's Profit:— Clear profit figure.", "Month's Profit Goal:— Compare actual vs target","Payment Method Income Allocation:— How clients paid you.", "Monthly Income vs Expenses Bar Chart — Visual comparison.", "Actual vs Goal Chart — Are you hitting your targets?", "Income Categories Breakdown:— Which services earned most.", "Direct links:— Jump to Income Entry or Expense Entry instantly", "Expense Categories Breakdown:— Where money went."],
       images: [
-        "src/Images/Relationship.webp",
-        "src/Images/Finance.webp",
-        "src/Images/Master-Finance.webp",
-        "src/Images/all-service.webp",
+        "public/Images/Relationship.webp",
+        "public/Images/Finance.webp",
+        "public/Images/Master-Finance.webp",
+        "public/Images/all-service.webp",
       ],
       gradientColors: RAINBOW_GRADIENT
     }
