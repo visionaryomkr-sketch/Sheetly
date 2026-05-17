@@ -306,7 +306,7 @@ export default function ProductWalkthrough() {
             viewport={{ once: true }}
             className="text-base md:text-xl text-secondary max-w-3xl mx-auto leading-relaxed font-normal"
           >
-            16 powerful tabs working together. Each feature meticulously designed to save you hours every week. Here's what you get:
+            18 powerful tabs working together. Each feature meticulously designed to save you hours every week. Here's what you get:
           </motion.p>
         </div>
 
