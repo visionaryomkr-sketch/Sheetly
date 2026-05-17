@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter+Display:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter Display", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #1A1A1A;
+  --color-secondary: #6B7280;
+  --color-accent-orange: #F97316;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-gradient-rotate: gradient-rotate 20s linear infinite;
+  --animate-shimmer: shimmer 2.5s infinite linear;
+  --animate-pulse-gold: pulse-gold 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+
+  @keyframes gradient-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  @keyframes pulse-gold {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(252, 211, 77, 0.4); }
+    50% { box-shadow: 0 0 30px 10px rgba(252, 211, 77, 0.6); }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: 'cv11', 'ss01';
+    text-rendering: optimizeLegibility;
+    overflow-anchor: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: clip;
+    max-width: 100%;
+  }
+  body {
+    @apply font-sans text-primary antialiased;
+    overflow-x: clip;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+  #root {
+    overflow-x: clip;
+    width: 100%;
+    max-width: 100%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight antialiased;
+    transform: translateZ(0);
+  }
+}
+
+@layer utilities {
+  .gpu {
+    transform: translate3d(0,0,0);
+    will-change: transform;
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+  
+  .contain-paint {
+    contain: paint;
+  }
+
+  .contain-layout {
+    contain: layout;
+  }
+
+  .contain-strict {
+    contain: strict;
+  }
+
+  /** Clips decorative blobs, blurs, and rotating gradients without affecting layout */
+  .decorative-layer {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+.rainbow-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#8B5CF6] via-[#EC4899] to-[#F97316];
+}
+
+.rainbow-gradient {
+  background: linear-gradient(to right, #8B5CF6, #EC4899, #F97316, #FACC15, #10B981, #3B82F6);
+}
+
+.rainbow-border-container {
+  position: relative;
+  overflow: hidden;
+  padding: 4px;
+  max-width: 100%;
+}
+
+.rainbow-border-bg {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    #8B5CF6, #EC4899, #F97316, #FACC15, #10B981, #3B82F6, #8B5CF6
+  );
+  animation: gradient-rotate 20s linear infinite;
+  z-index: -1;
+}
+
