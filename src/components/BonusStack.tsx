@@ -133,7 +133,7 @@ export default function BonusStack() {
             icon="📊"
             iconBg="bg-gradient-to-br from-purple-50 to-pink-50"
             title="All-in-One Service Business Template"
-            description="16 powerful tabs covering CRM, invoicing, tasks, finances, and analytics. The complete business management system."
+            description="18 powerful tabs covering CRM, invoicing, tasks, finances, and analytics. The complete business management system."
             value="₹4,999"
             todayLabel="INCLUDED ✅"
           />
