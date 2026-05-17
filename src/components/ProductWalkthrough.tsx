@@ -366,7 +366,7 @@ export default function ProductWalkthrough() {
           </h3>
 
           <p className="text-base md:text-xl text-secondary mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed font-normal">
-            16 tabs. 31+ features. Lifetime access. Free updates forever. Stop renting software, start owning your business infrastructure.
+            18 tabs. 31+ features. Lifetime access. Free updates forever. Stop renting software, start owning your business infrastructure.
           </p>
 
           <motion.a
