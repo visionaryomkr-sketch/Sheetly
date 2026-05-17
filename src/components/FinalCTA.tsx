@@ -79,7 +79,7 @@ export default function FinalCTA() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col items-center gap-8">
+        {/* <div className="mt-16 flex flex-col items-center gap-8">
            <p className="text-gray-500 font-medium uppercase tracking-[0.2em] text-[10px] sm:text-xs">Securely Processed via Razorpay</p>
            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
               <div className="flex flex-col items-center gap-2">
@@ -96,7 +96,7 @@ export default function FinalCTA() {
              <span className="text-xl">🇮🇳</span>
              <span className="text-white/60 text-xs sm:text-sm font-medium">Indian Payments. Indian Support. 100% Made for Indian Businesses.</span>
            </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
