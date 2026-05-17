@@ -34,7 +34,7 @@ export default function Hero() {
 
             {/* Sub-headline */}
             <p className="text-base md:text-xl text-[#6B7280] leading-relaxed max-w-lg mb-8 font-normal">
-              16 powerful tabs. 31+ features. Lifetime access. Replace your expensive SaaS subscriptions with a one-time investment that actually works.
+              18 powerful tabs. 31+ features. Lifetime access. Replace your expensive SaaS subscriptions with a one-time investment that actually works.
             </p>
 
             {/* Feature Pills */}
