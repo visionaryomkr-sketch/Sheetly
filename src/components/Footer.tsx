@@ -1,6 +1,6 @@
 import { useState, type ReactNode } from "react";
 
-const whatsappHref = "https://wa.me/911234567898";
+const whatsappHref = "https://wa.me/916201530733";
 const supportEmail = "birzcrown@gmail.com";
 
 const productLinks = [
