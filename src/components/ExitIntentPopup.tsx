@@ -5,9 +5,9 @@ import { PAYMENT_URL } from "../constants";
 
 const SESSION_KEY = "exitPopupShown";
 const COUPON_CODE = "SAVE20";
-const REGULAR_PRICE = "₹1,299";
-const DISCOUNTED_PRICE = "₹1,039";
-const SAVINGS_AMOUNT = "₹260";
+const REGULAR_PRICE = "₹899";
+const DISCOUNTED_PRICE = "₹719";
+const SAVINGS_AMOUNT = "₹180";
 const INITIAL_TIME = 5 * 60;
 const MIN_TIME_BEFORE_SHOW = 10 * 1000;
 const MOBILE_TIME_BEFORE_SHOW = 30 * 1000;
