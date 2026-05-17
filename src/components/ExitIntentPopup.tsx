@@ -290,7 +290,7 @@ export default function ExitIntentPopup() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.24 }}
               >
-                We've got a special exit offer just for you 👇
+                Wait! Before you go, we have something special for you 👇
               </motion.p>
 
               <motion.div
