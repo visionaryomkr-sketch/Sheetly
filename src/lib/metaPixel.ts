@@ -10,7 +10,7 @@ export const trackViewContent = () => {
       content_name: "Sheetly Landing Page",
       content_category: "Business Spreadsheet",
       currency: "INR",
-      value: 1299,
+      value: 899,
     });
   }
 };
@@ -21,7 +21,7 @@ export const trackInitiateCheckout = () => {
       content_name: "Sheetly",
       content_category: "Business Spreadsheet",
       currency: "INR",
-      value: 1299,
+      value: 899,
       num_items: 1,
     });
   }
@@ -34,7 +34,7 @@ export const trackPurchase = () => {
       content_type: "product",
       content_ids: ["sheetly-bundle-001"],
       currency: "INR",
-      value: 1299,
+      value: 899,
       num_items: 1,
     });
   }
@@ -45,7 +45,7 @@ export const trackLead = () => {
     window.fbq("track", "Lead", {
       content_name: "Sheetly Page Engagement",
       currency: "INR",
-      value: 1299,
+      value: 899,
     });
   }
 };
