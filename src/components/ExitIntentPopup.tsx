@@ -304,7 +304,7 @@ export default function ExitIntentPopup() {
                   animate={{ scale: [1, 1.035, 1] }}
                   transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  20% OFF
+                  10% OFF
                 </motion.div>
                 <p className="mt-2 text-sm font-bold uppercase tracking-[0.05em] text-white/95 sm:text-base">
                   Use This Code at Checkout
@@ -397,7 +397,7 @@ export default function ExitIntentPopup() {
                 animate={isExpired ? undefined : { scale: [1, 1.015, 1] }}
                 transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
               >
-                🎯 CLAIM 20% OFF — {DISCOUNTED_PRICE}
+                🎯 CLAIM 10% OFF — {DISCOUNTED_PRICE}
               </motion.a>
 
               <motion.div
