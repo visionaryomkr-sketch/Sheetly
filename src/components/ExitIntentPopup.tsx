@@ -4,9 +4,9 @@ import { Check, Copy, X } from "lucide-react";
 import { PAYMENT_URL } from "../constants";
 
 const SESSION_KEY = "exitPopupShown";
-const COUPON_CODE = "SAVE20";
+const COUPON_CODE = "SAVE10";
 const REGULAR_PRICE = "₹899";
-const DISCOUNTED_PRICE = "₹719";
+const DISCOUNTED_PRICE = "₹735";
 const SAVINGS_AMOUNT = "₹180";
 const INITIAL_TIME = 5 * 60;
 const MIN_TIME_BEFORE_SHOW = 10 * 1000;
@@ -314,7 +314,7 @@ export default function ExitIntentPopup() {
                   type="button"
                   onClick={copyCoupon}
                   className="mx-auto mt-4 inline-flex min-h-14 cursor-pointer items-center justify-center gap-3 rounded-xl border-2 border-dashed border-white bg-white px-6 py-4 font-display text-2xl font-bold tracking-[0.1em] text-primary shadow-lg transition-all duration-200 hover:scale-105 sm:text-3xl"
-                  aria-label="Copy coupon code SAVE20"
+                  aria-label="Copy coupon code SAVE10"
                   animate={copied ? { scale: [1, 1.08, 1] } : { scale: [1, 1.02, 1] }}
                   transition={{ duration: copied ? 0.35 : 2.2, repeat: copied ? 0 : Infinity }}
                 >
