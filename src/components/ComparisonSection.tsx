@@ -19,7 +19,7 @@ export default function ComparisonSection() {
 
   const afterItems = [
     "ONE master spreadsheet for everything",
-    "Pay ₹1,299 ONCE — lifetime access",
+    "Pay ₹499 ONCE — lifetime access",
     "Setup in 5 minutes, use forever",
     "Auto-tracking for all payments",
     "Tax season = piece of cake",
