@@ -47,7 +47,7 @@ export default function SaaSComparison() {
           </motion.h2>
           
           <p className="text-base md:text-xl text-secondary max-w-2xl mx-auto font-normal">
-            Why pay ₹2,000/month forever when you can pay ₹899 ONCE? See the brutal truth in numbers.
+            Why pay ₹2,000/month forever when you can pay ₹499 ONCE? See the brutal truth in numbers.
           </p>
         </div>
 
