@@ -29,7 +29,7 @@ export default function Hero() {
 
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-[1.1] md:leading-[1.05] font-extrabold tracking-[-0.04em] text-primary mb-6">
-              The Simplest Business Manager for Indian Freelancers<span className="rainbow-text block">Indian Freelancers 🇮🇳</span>
+              The Simplest Business Manager for <span className="rainbow-text block">Indian Freelancers 🇮🇳</span>
             </h1>
 
             {/* Sub-headline */}
