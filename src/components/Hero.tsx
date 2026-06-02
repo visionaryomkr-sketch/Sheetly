@@ -29,12 +29,12 @@ export default function Hero() {
 
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-[1.1] md:leading-[1.05] font-extrabold tracking-[-0.04em] text-primary mb-6">
-              Run Your Entire Service Business From <span className="rainbow-text block">ONE Spreadsheet</span>
+              The Simplest Business Manager for Indian Freelancers<span className="rainbow-text block">🇮🇳</span>
             </h1>
 
             {/* Sub-headline */}
             <p className="text-base md:text-xl text-[#6B7280] leading-relaxed max-w-lg mb-8 font-normal">
-              18 powerful tabs. 31+ features. Lifetime access. Replace your expensive SaaS subscriptions with a one-time investment that actually works.
+              Track Income, Auto-Calculate GST, and Send Professional Invoices in 2 Minutes. No Accounting Degree Needed.
             </p>
 
             {/* Feature Pills */}
