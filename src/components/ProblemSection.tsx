@@ -61,10 +61,10 @@ export default function ProblemSection() {
             transition={{ delay: 0.1 }}
             className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-4 md:mb-6 leading-tight tracking-[-0.03em]"
           >
-            The Real <span className="relative inline-block tracking-tighter">
-              Reason?
+            Sound <span className="relative inline-block tracking-tighter">
+              Familiar?
               <span className="absolute -bottom-1 left-0 w-full h-1 bg-red-400 rounded-full"></span>
-            </span> You're Not Growing.
+            </span> You're Not Alone.
           </motion.h2>
           
           <motion.p
@@ -74,7 +74,7 @@ export default function ProblemSection() {
             transition={{ delay: 0.2 }}
             className="text-base md:text-xl text-secondary max-w-2xl mx-auto leading-relaxed font-normal"
           >
-            You're not bad at business, You're just using the wrong tools, Every hour you spend switching between apps, chasing payments, and organizing chaos — is an hour stolen from actual work.
+            You work 12 hours a day. You barely sleep. You handle dozens of clients and projects. The problem isn't your hard work, The problem is your system. The good news? There's a simple solution.
           </motion.p>
         </div>
 
