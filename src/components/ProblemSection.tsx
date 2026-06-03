@@ -3,14 +3,14 @@ import { motion } from "motion/react";
 const problems = [
   {
     icon: "💸",
-    title: "Subscription Money Pit",
-    description: "₹2,000-5,000 every single month on Notion, ClickUp, Airtable, Calendly, and 5 other tools. That's ₹60,000+ per year just for software you barely use 20% of.",
+    title: "You're Bleeding ₹3,000+ Every Month",
+    description: "Notion for notes, ClickUp for tasks, Airtable for databases, Wave for invoices, Calendly for scheduling. 5 subscriptions. ₹3,000-5,000/month. ₹40,000-60,000/year. And you only use 20% of what you pay for.",
     color: "bg-red-100"
   },
   {
     icon: "🤯",
-    title: "Tool Switching Chaos",
-    description: "Clients in one app, invoices in another, tasks in a third, finances in Excel. Switching between tabs all day, losing focus, missing important details constantly.",
+    title: "our Productivity is Being Murdered",
+    description: "You open Chrome for client emails, Switch to Notion for project updates, Open Excel for invoice tracking, Open WhatsApp to chase payments. Open Calendar to check deadlines, You're not working,You're APP-SWITCHING. Average business owner loses 2-3 hours daily. just navigating between tools. That's 15 hours every week. 60 hours per month.",
     color: "bg-orange-100"
   },
   {
@@ -61,10 +61,10 @@ export default function ProblemSection() {
             transition={{ delay: 0.1 }}
             className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-4 md:mb-6 leading-tight tracking-[-0.03em]"
           >
-            Sound <span className="relative inline-block tracking-tighter">
-              Familiar?
+            The Real <span className="relative inline-block tracking-tighter">
+              Reason?
               <span className="absolute -bottom-1 left-0 w-full h-1 bg-red-400 rounded-full"></span>
-            </span> You're Not Alone.
+            </span> You're Not Growing.
           </motion.h2>
           
           <motion.p
@@ -74,7 +74,7 @@ export default function ProblemSection() {
             transition={{ delay: 0.2 }}
             className="text-base md:text-xl text-secondary max-w-2xl mx-auto leading-relaxed font-normal"
           >
-            Every freelancer, agency owner, and service provider faces these exact problems daily. The good news? There's a simple solution.
+            You're not bad at business, You're just using the wrong tools, Every hour you spend switching between apps, chasing payments, and organizing chaos — is an hour stolen from actual work.
           </motion.p>
         </div>
 
