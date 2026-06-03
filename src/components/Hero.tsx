@@ -29,17 +29,17 @@ export default function Hero() {
 
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-[1.1] md:leading-[1.05] font-extrabold tracking-[-0.04em] text-primary mb-6">
-              The Simplest Business Manager for <span className="rainbow-text block">Indian Freelancers 🇮🇳</span>
+              Stop Paying ₹3,000/Month for Tools Run Your Entire Business From <span className="rainbow-text block">One Spreadsheet</span>
             </h1>
 
             {/* Sub-headline */}
             <p className="text-base md:text-xl text-[#6B7280] leading-relaxed max-w-lg mb-8 font-normal">
-              Track Income, Auto-Calculate GST, and Send Professional Invoices in 2 Minutes. No Accounting Degree Needed.
+              No more monthly subscriptions eating into your profits. No more juggling 5 different apps just to run your business. Sheetly puts client management, invoicing, task tracking, financial planning, and GST calculations — all in ONE spreadsheet that you can open anywhere.
             </p>
 
             {/* Feature Pills */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 mb-10">
-              {["Built for India", "Zero Learning Curve", "Lifetime Updates"].map((text) => (
+              {["Built Specifically for Indian", "Zero Learning Curve — Use in 5 Minutes", "Lifetime Access — Pay Once, Use Forever", "GST-Ready — Auto-Calculations Built In"].map((text) => (
                 <span key={text} className="px-3 py-1 bg-gray-50 border border-gray-100 rounded-full text-[11px] sm:text-[13px] font-medium text-gray-600 italic flex items-center tracking-normal">
                   ✅ {text}
                 </span>
@@ -55,7 +55,7 @@ export default function Hero() {
                 className="group relative inline-flex items-center justify-center w-full sm:w-auto max-w-[95%] sm:max-w-none px-6 py-4 sm:px-10 sm:py-5 bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] text-white text-base sm:text-xl font-bold rounded-xl shadow-[0_10px_25px_-5px_rgba(139,92,246,0.3)] hover:shadow-[0_15px_30px_-5px_rgba(139,92,246,0.4)] transition-all duration-300"
               >
                 <span className="md:hidden">Get Access {PRODUCT_PRICE}</span>
-                <span className="hidden md:inline">Get Instant Access — {PRODUCT_PRICE}</span>
+                <span className="hidden md:inline">🚀 Get Sheetly Now — ₹499 Only — {PRODUCT_PRICE}</span>
                 <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.a>
 
@@ -73,7 +73,7 @@ export default function Hero() {
                 <span className="text-[#FACC15] mr-2">⭐⭐⭐⭐⭐</span> 4.9/5 Rating
               </div>
               <div className="flex items-center justify-center lg:justify-start text-[11px] sm:text-[12px] font-medium text-[#6B7280] tracking-normal">
-                <span className="bg-blue-100 p-1.5 rounded-md mr-2 text-blue-600">👥</span> 424+ Users
+                <span className="bg-blue-100 p-1.5 rounded-md mr-2 text-blue-600">👥</span> 1000+ Users
               </div>
               <div className="flex items-center justify-center lg:justify-start text-[11px] sm:text-[12px] font-medium text-[#6B7280] tracking-normal">
                 <span className="bg-orange-100 p-1.5 rounded-md mr-2 text-orange-600">🔒</span> Razorpay
