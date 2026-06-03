@@ -9,7 +9,7 @@ const problems = [
   },
   {
     icon: "🤯",
-    title: "our Productivity is Being Murdered",
+    title: "Your Productivity is Being Murdered",
     description: "You open Chrome for client emails, Switch to Notion for project updates, Open Excel for invoice tracking, Open WhatsApp to chase payments. Open Calendar to check deadlines, You're not working,You're APP-SWITCHING. Average business owner loses 2-3 hours daily. just navigating between tools. That's 15 hours every week. 60 hours per month.",
     color: "bg-orange-100"
   },
