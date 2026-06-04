@@ -3,38 +3,38 @@ import { motion } from "motion/react";
 const problems = [
   {
     icon: "💸",
-    title: "You're Bleeding ₹3,000+ Every Month",
-    description: "Notion for notes, ClickUp for tasks, Airtable for databases, Wave for invoices, Calendly for scheduling. 5 subscriptions. ₹3,000-5,000/month. ₹40,000-60,000/year. And you only use 20% of what you pay for.",
+    title: "The Subscription Trap",
+    description: "You signed up for Notion to organize clients. Then some invoicing app. Then an accounting tool for GST. ₹3,000–5,000 leaves your account every month. Automatically. Silently. And somehow — your business still runs on Excel.",
     color: "bg-red-100"
   },
   {
     icon: "🤯",
-    title: "Your Productivity is Being Murdered",
+    title: "The 11-Tab Workday",
     description: "You open Chrome for client emails, Switch to Notion for project updates, Open Excel for invoice tracking, Open WhatsApp to chase payments. Open Calendar to check deadlines, You're not working,You're APP-SWITCHING. Average business owner loses 2-3 hours daily. just navigating between tools. That's 15 hours every week. 60 hours per month.",
     color: "bg-orange-100"
   },
   {
-    icon: "⏰",
-    title: "Setup Hell",
-    description: "Spent 2 weeks trying to setup Notion. Watched 50+ tutorials. Customized templates. Still not working the way you want. Time wasted: priceless.",
+    icon: "👥",
+    title: "Busy Team. Zero Progress.",
+    description: "Monday morning meeting — everyone nods. Wednesday — you follow up on WhatsApp. Friday — the deadline is tomorrow and nobody has a clear update. Client calls: What's the status?. You say: Let me check and get back to you. You started this business to lead. Not to spend your days chasing your own team.",
     color: "bg-yellow-100"
   },
   {
-    icon: "📉",
-    title: "Missing Payments",
-    description: "Which client paid? Who's pending? When was the last invoice sent? You're constantly chasing payments because there's no clear system to track them.",
+    icon: "💰",
+    title: "Good Month. Empty Bank.",
+    description: "You had a good month. Revenue looked solid. But at the end of it — your bank balance tells a different story. Which client paid? Who still owes you? Which expense was that? Is this profit or loss? You're running a business. without ever really knowing the score.",
     color: "bg-pink-100"
   },
   {
     icon: "😰",
     title: "Tax Season Nightmare",
-    description: "Year-end comes and your data is scattered across 10 places. Hours spent organizing receipts, calculating GST, and your CA charges extra for the cleanup mess.",
+    description: "It's that time of the quarter again. You open your laptop.You open your laptop. Stare at 6 different files. Call your CA. He sighs. Again. 3 days of panic, late nights, and scattered receipts — for something that should take 3 hours. Every. Single. Quarter. Same stress. Same chaos. Same CA bill.",
     color: "bg-purple-100"
   },
   {
     icon: "🚫",
     title: "Unprofessional Image",
-    description: "Sending invoices on WhatsApp, tracking projects in random Excel files, no centralized client database. You're losing premium clients because you don't look professional.",
+    description: "You deliver great work. Your clients are happy. But then they refer a friend — And that friend sees your WhatsApp invoice. Your Excel quote. Your I'll send you the details on chat. And they quietly go to your competitor. Not because your work is worse. Because your business doesn't look serious. First impressions close deals. Or kill them.",
     color: "bg-blue-100"
   }
 ];
@@ -74,7 +74,7 @@ export default function ProblemSection() {
             transition={{ delay: 0.2 }}
             className="text-base md:text-xl text-secondary max-w-2xl mx-auto leading-relaxed font-normal"
           >
-            You work 12 hours a day. You barely sleep. You handle dozens of clients and projects. The problem isn't your hard work, The problem is your system. The good news? There's a simple solution.
+            Every business owner faces these exact problems daily. The good news? There's a simple solution.
           </motion.p>
         </div>
 
@@ -111,7 +111,8 @@ export default function ProblemSection() {
           className="text-center mt-12 md:mt-20 px-4"
         >
           <p className="text-xl sm:text-2xl md:text-3xl font-bold text-primary tracking-[-0.03em] font-display">
-            If even ONE of these hit home... 
+            If even ONE of these hit home... 👇
+            You already know you need a better system.
             <motion.span
               animate={{ y: [0, 8, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
