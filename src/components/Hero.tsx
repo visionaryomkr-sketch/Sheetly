@@ -29,17 +29,17 @@ export default function Hero() {
 
             {/* Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-[1.1] md:leading-[1.05] font-extrabold tracking-[-0.04em] text-primary mb-6">
-              STOP RUNNING YOUR ₹10+ LAKH BUSINESS <span className="rainbow-text block">ON WHATSAPP AND TOOLS</span>
+              Your Business Is Losing Money Because It Has <span className="rainbow-text block">No System</span>
             </h1>
 
             {/* Sub-headline */}
             <p className="text-base md:text-xl text-[#6B7280] leading-relaxed max-w-lg mb-8 font-normal">
-              WhatsApp business = No system. No system = Money leak. Get a real system = ₹999 Problem solved.
+              Stop paying monthly for 5 different tools. Sheetly replaces all of them — in one spreadsheet. One-time ₹899. Lifetime access. Zero subscriptions.
             </p>
 
             {/* Feature Pills */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 mb-10">
-              {["Built Specifically for Indian", "Zero Learning Curve — Use in 5 Minutes", "Lifetime Access — Pay Once, Use Forever", "GST-Ready — Auto-Calculations Built In"].map((text) => (
+              {["Built Specifically for Indian", "GST-Ready — Tax season stress gone forever", "One-Time Payment — No monthly fees. Ever.", "Professional PDF Invoicing — Branded & auto-numbered","Setup in 10 Minutes — Not 30 days", "Professional PDF Invoicing — Branded & auto-numbered"].map((text) => (
                 <span key={text} className="px-3 py-1 bg-gray-50 border border-gray-100 rounded-full text-[11px] sm:text-[13px] font-medium text-gray-600 italic flex items-center tracking-normal">
                   ✅ {text}
                 </span>
@@ -55,7 +55,7 @@ export default function Hero() {
                 className="group relative inline-flex items-center justify-center w-full sm:w-auto max-w-[95%] sm:max-w-none px-6 py-4 sm:px-10 sm:py-5 bg-gradient-to-r from-[#8B5CF6] to-[#EC4899] text-white text-base sm:text-xl font-bold rounded-xl shadow-[0_10px_25px_-5px_rgba(139,92,246,0.3)] hover:shadow-[0_15px_30px_-5px_rgba(139,92,246,0.4)] transition-all duration-300"
               >
                 <span className="md:hidden">Get Access {PRODUCT_PRICE}</span>
-                <span className="hidden md:inline">🚀 Get Sheetly Now — {PRODUCT_PRICE} Only </span>
+                <span className="hidden md:inline">🚀 Get Sheetly Now — {PRODUCT_PRICE} </span>
                 <ArrowRight className="ml-3 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.a>
 
