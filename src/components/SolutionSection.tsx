@@ -78,7 +78,7 @@ export default function SolutionSection() {
             transition={{ delay: 0.2 }}
             className="text-base md:text-xl text-secondary max-w-3xl mx-auto leading-relaxed font-normal"
           >
-            Stop juggling 5 different tools. Sheetly combines client management, invoicing, task tracking, financial planning, and analytics into ONE beautifully designed spreadsheet you'll actually use.
+            Clients. Projects. Team. Invoices. Finance. GST. All organized. All in one place. No software to install. No monthly subscription. No complicated setup. Just open it, add your data, and run your business like a pro.
           </motion.p>
         </div>
 
