@@ -151,7 +151,7 @@ export default function ProductWalkthrough() {
       icon: <LayoutDashboard className="w-8 h-8 text-purple-600" />,
       iconBg: "bg-purple-50",
       title: "Smart Business Dashboard",
-      description: "Most business owners start their day chasing information — calling team members, scrolling WhatsApp, opening 5 different files just to answer one question: how is my business doing? The Sheetly Dashboard ends that completely. The moment you open it, your entire business is right in front of you — auto-updated, always accurate, zero manual work.",
+      description: "Most business owners start their day chasing information — calling team members, scrolling WhatsApp, opening 5 different files just to answer one simple question: how is my business doing? The Sheetly Dashboard ends that. Open it and your entire business is right in front of you — auto-updated, always accurate.",
       bullets: ["Today's Tasks & Deadlines:— See every task due today across your entire team, without making a single call.",
       "Pending Invoice Overview:— Know exactly which clients owe you money and how much — filtered by Paid, Unpaid, and Part-Paid.",
       "Revenue Summary:— See how much you've earned this month and how close you are to hitting your monthly goal.",
@@ -265,15 +265,15 @@ export default function ProductWalkthrough() {
   ];
 
   const additionalTabs = [
-    { icon: "📋", title: "Communication Log", description: "Track every client interaction", color: "bg-purple-50" },
-    { icon: "⚙️", title: "Setup Page", description: "Customize for your business needs", color: "bg-blue-50" },
-    { icon: "💼", title: "Budget Planner", description: "Set goals and track progress", color: "bg-pink-50" },
-    { icon: "⚖️", title: "Balance Sheet", description: "Financial health at a glance", color: "bg-green-50" },
-    { icon: "🧾", title: "Print Invoices", description: "Professional PDF generation", color: "bg-orange-50" },
-    { icon: "🔄", title: "Reconciliation", description: "Match transactions effortlessly", color: "bg-yellow-50" },
-    { icon: "📚", title: "Instructions Tab", description: "Detailed usage guide included", color: "bg-cyan-50" },
-    { icon: "📆", title: "12-Month View", description: "Yearly trend analysis", color: "bg-indigo-50" },
-    { icon: "🎨", title: "Custom Period", description: "Analyze any timeframe", color: "bg-rose-50" },
+    { icon: "📋", title: "Communication Log", description: "Every client conversation recorded", color: "bg-purple-50" },
+    { icon: "⚙️", title: "Setup Page", description: "Customize 20+ income & expense categories", color: "bg-blue-50" },
+    { icon: "💼", title: "Budget Planner", description: "Set monthly targets, track progress", color: "bg-pink-50" },
+    { icon: "⚖️", title: "Balance Sheet", description: "Your complete financial position at a glance", color: "bg-green-50" },
+    { icon: "🧾", title: "Print Invoices", description: "Generate professional PDFs in one click", color: "bg-orange-50" },
+    { icon: "🔄", title: "Reconciliation", description: "Match bank statements with your records", color: "bg-yellow-50" },
+    { icon: "📚", title: "Instructions Tab", description: "Step-by-step setup guide (written)", color: "bg-cyan-50" },
+    { icon: "📆", title: "12-Month View", description: "Full year financial trend at a glance", color: "bg-indigo-50" },
+    { icon: "🎨", title: "Custom Period", description: "Analyze any date range you want", color: "bg-rose-50" },
   ];
 
   return (
