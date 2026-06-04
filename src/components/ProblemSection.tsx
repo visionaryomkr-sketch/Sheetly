@@ -111,7 +111,8 @@ export default function ProblemSection() {
           className="text-center mt-12 md:mt-20 px-4"
         >
           <p className="text-xl sm:text-2xl md:text-3xl font-bold text-primary tracking-[-0.03em] font-display">
-            If even ONE of these hit home... 👇
+            If even ONE of these hit home...
+            
             You already know you need a better system.
             <motion.span
               animate={{ y: [0, 8, 0] }}
