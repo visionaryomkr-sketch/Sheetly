@@ -5,10 +5,10 @@ import { PAYMENT_URL, PRODUCT_PRICE } from "../constants";
 
 export default function ComparisonSection() {
   const beforeItems = [
-    "5 different Excel files for tracking",
-    "3+ apps subscriptions (₹3,000/month)",
-    "Notion setup taking 1+ month",
-    "Missing client payment follow-ups",
+    "Client data scattered across WhatsApp",
+    "Team updates via phone calls",
+    "Payment follow-ups done manually",
+    "Project status: Nobody really knows",
     "Tax season nightmare",
     "Tasks scattered everywhere",
     "No clear business overview",
@@ -18,10 +18,10 @@ export default function ComparisonSection() {
   ];
 
   const afterItems = [
-    "ONE master spreadsheet for everything",
-    "Pay ₹499 ONCE — lifetime access",
+    "All client data in one organized CRM",
+    "Team tasks assigned, tracked, visible",
     "Setup in 5 minutes, use forever",
-    "Auto-tracking for all payments",
+    "Project status clear on the dashboard",
     "Tax season = piece of cake",
     "All tasks in one organized place",
     "Beautiful dashboard at a glance",
