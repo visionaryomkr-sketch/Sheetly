@@ -57,42 +57,42 @@ const PersonaCard: React.FC<PersonaCardProps> = ({ avatar, title, subtitle, desc
 export default function PersonaSection() {
   const personas = [
     {
-      avatar: "👨‍💻",
-      title: "The Freelancer",
-      subtitle: "Designer • Developer • Writer",
-      description: "Managing 3-10 active clients across multiple projects. Tired of juggling spreadsheets, payment trackers, and to-do apps.",
+      avatar: "🏪",
+      title: "RETAIL BUSINESSES",
+      subtitle: "Designer • Developer • retail outlets",
+      description: "Track all supplier payments, Manage customer relationships, GST calculations automatic, Team task coordination. If this is you: BizPrime is built for you.",
       gradientColor: "#8B5CF6",
       tags: ["Multiple clients", "Project tracking", "Invoicing"]
     },
     {
-      avatar: "👩‍💼",
-      title: "The Agency Owner",
-      subtitle: "Marketing • Design • Consulting",
-      description: "Running a small team of 2-15 people. Multiple ongoing client projects. Need centralized tracking and team coordination.",
+      avatar: "📦",
+      title: "TRADING COMPANIES",
+      subtitle: "Import/Export • wholesale • distribution",
+      description: "Track purchases & sales, manage party accounts, GST auto-calculations, Team task management.",
       gradientColor: "#EC4899",
       tags: ["Team management", "Project coordination", "Financial tracking"]
     },
     {
-      avatar: "🎯",
-      title: "The Solopreneur",
-      subtitle: "Coach • Course Creator • Online Service",
-      description: "Running a one-person business that needs to look like a team. Premium pricing, premium feel, professional systems.",
+      avatar: "🛠️",
+      title: "SERVICE COMPANIES",
+      subtitle: "Agencies • consultancies • agencies",
+      description: "Manage all client relationships. Track project progress, Send professional invoices, Team coordination.",
       gradientColor: "#F97316",
       tags: ["Personal brand", "Premium clients", "Time-saving"]
     },
     {
-      avatar: "📸",
-      title: "The Creative Pro",
-      subtitle: "Photographer • Videographer • Artist",
-      description: "Wedding bookings, commercial projects, deliverables tracking. Manage shoots, edits, payments professionally.",
+      avatar: "💻",
+      title: "DIGITAL BUSINESSES",
+      subtitle: "D2C brands • e-commerce • online stores",
+      description: "Track all orders and payments, Manage customer communications, GST auto-calculations. Professional invoicing.",
       gradientColor: "#FACC15",
       tags: ["Booking management", "Deliverable tracking", "Payment schedules"]
     },
     {
-      avatar: "🎓",
-      title: "The Coach",
-      subtitle: "Business Coach • Consultant • Trainer",
-      description: "1-on-1 sessions, group programs, course students. Track every client's journey, payment status, and progress.",
+      avatar: "👨🏻‍💻",
+      title: "Growing Startups",
+      subtitle: "Early-stage companies scaling their operations.",
+      description: "Centralized team management, Project tracking, Complete financial visibility, Professional client management.",
       gradientColor: "#10B981",
       tags: ["Session tracking", "Client journey", "Recurring revenue"]
     },
@@ -132,7 +132,7 @@ export default function PersonaSection() {
             viewport={{ once: true }}
             className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-6 tracking-[-0.03em]"
           >
-            Built for <span className="rainbow-text">Modern Service Businesses</span>
+            Is Sheetly Right for <span className="rainbow-text">You? </span>
           </motion.h2>
           
           <motion.p
@@ -141,7 +141,7 @@ export default function PersonaSection() {
             viewport={{ once: true }}
             className="text-base md:text-xl text-secondary max-w-3xl mx-auto leading-relaxed font-normal"
           >
-            Whether you're a solo freelancer or running a growing agency, Sheetly adapts to your workflow. See if you fit one of these profiles:
+            If you recognize your business below — yes, it is.
           </motion.p>
         </div>
 
@@ -161,7 +161,7 @@ export default function PersonaSection() {
         >
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-4 font-display tracking-[-0.03em]">Don't See Your Profession?</h3>
           <p className="text-sm sm:text-base md:text-lg text-secondary max-w-2xl mx-auto mb-8 md:mb-10 font-normal tracking-normal">
-            Sheetly works for ANY service-based business. If you have clients, projects, invoices, and finances to manage — Sheetly is built for you.
+            Don't see your business type? Sheetly works for ANY business: → Retail, Trading, Manufacturing → Service, Agency, Consultancy. → Digital, E-commerce. → Coaching, Training. → Any business with clients, money, and team. If that sounds like you — Sheetly is for you.
           </p>
           
           <motion.a
