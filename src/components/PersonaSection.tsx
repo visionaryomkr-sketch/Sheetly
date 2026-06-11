@@ -58,51 +58,51 @@ export default function PersonaSection() {
   const personas = [
     {
       avatar: "👨‍💻",
-      title: "The Freelancer",
-      subtitle: "Designer • Developer • writer",
-      description: "Managing 3-10 active clients across multiple projects. Tired of juggling spreadsheets, payment trackers, and to-do apps.",
+      title: "The Agency Owner",
+      subtitle: "Marketing • Design • Digital",
+      description: "Managing 5–15 clients, a growing team, and multiple project deadlines can quickly become overwhelming. When client communication, team tasks, and invoices are scattered across WhatsApp and spreadsheets, staying organized becomes a challenge.",
       gradientColor: "#8B5CF6",
-      tags: ["Multiple clients", "Project tracking", "Invoicing"]
+      tags: ["TEAM MANAGEMENT", "CLIENT TRACKING", "PROFESSIONAL INVOICING"]
     },
     {
       avatar: "👩‍💼",
-      title: "The Agency Owner",
-      subtitle: "Marketing • Design • Consulting",
-      description: "Managing 5 to 15 clients, a growing team, and multiple project deadlines can quickly become overwhelming. When client communication, team tasks, and invoices are scattered across WhatsApp and spreadsheets, staying organized becomes a challenge.",
+      title: "The Contractor",
+      subtitle: "Construction • Interior Design • Renovation",
+      description: "Juggling multiple projects, vendors, and clients at the same time? Keeping track of project progress, payment schedules, and vendor coordination shouldn't require endless phone calls and spreadsheets.",
       gradientColor: "#EC4899",
-      tags: ["Team management", "CLIENT TRACKING", "PROFESSIONAL INVOICING"]
+      tags: ["PROJECT TRACKING", "VENDOR PAYMENTS", "GST INVOICING"]
     },
     {
       avatar: "🎯",
-      title: "The Solopreneur",
-      subtitle: "Coach • Course Creator • Online Service",
-      description: "Running a one-person business that needs to look like a team. Premium pricing, premium feel, professional systems.",
+      title: "The Coach & Trainer",
+      subtitle: "Business Coach • Life Coach • Fitness Trainer",
+      description: "Whether you're managing private sessions, group programs, or online students, keeping track of client progress, payments, and upcoming sessions can become a full-time job on its own.",
       gradientColor: "#F97316",
-      tags: ["Personal brand", "Premium clients", "Time-saving"]
+      tags: ["SESSION TRACKING", "FEE MANAGEMENT", "CLIENT PROGRESS"]
     },
     {
       avatar: "📸",
-      title: "The Creative Pro",
-      subtitle: "D2C brands • e-commerce • online stores",
-      description: "Track all orders and payments, Manage customer communications, GST auto-calculations. Professional invoicing.",
+      title: "The Consultant",
+      subtitle: "Business • HR • Finance • Legal",
+      description: "Retainer clients, project deadlines, reports, and follow-ups demand a professional system. Deliver exceptional client experiences while keeping every engagement organized and on schedule.",
       gradientColor: "#FACC15",
-      tags: ["Booking management", "Deliverable tracking", "Payment schedules"]
+      tags: ["RETAINER MANAGEMENT", "PROFESSIONAL REPORTS", "TIME TRACKING"]
     },
     {
       avatar: "👨🏻‍💻",
-      title: "Growing Startups",
-      subtitle: "Early-stage companies scaling their operations.",
-      description: "Centralized team management, Project tracking, Complete financial visibility, Professional client management.",
+      title: "The IT & Tech Company",
+      subtitle: "Software Development • Web Agency • SaaS",
+      description: "Managing multiple clients, development projects, and team members becomes difficult when work lacks visibility. Stay on top of deliverables, deadlines, and invoicing without the chaos.",
       gradientColor: "#10B981",
-      tags: ["Session tracking", "Client journey", "Recurring revenue"]
+      tags: ["TASK ASSIGNMENT", "PROJECT DEADLINES", "GST-READY INVOICING"]
     },
     {
       avatar: "💼",
-      title: "The Service Pro",
-      subtitle: "Lawyer • Accountant • Architect",
-      description: "Professional services with retainer clients. Need detailed records, time tracking, professional invoicing, and reports.",
+      title: "The Creative Studio",
+      subtitle: "Photography • Videography • Content Creation",
+      description: "From bookings and shoots to client approvals and payment follow-ups, creative work deserves a streamlined workflow that keeps every project moving forward smoothly.",
       gradientColor: "#3B82F6",
-      tags: ["Retainer tracking", "Time logs", "Professional reports"]
+      tags: ["BOOKING MANAGEMENT", "PAYMENT TRACKING", "DELIVERY DEADLINES"]
     }
   ];
 
