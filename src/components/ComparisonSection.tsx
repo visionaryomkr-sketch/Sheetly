@@ -182,7 +182,7 @@ export default function ComparisonSection() {
               <div className="pt-6 md:pt-8 border-t border-gray-100">
                 <div className="flex flex-col gap-3">
                   <p className="text-base md:text-lg font-bold font-display tracking-tight rainbow-text flex items-center">
-                    <span className="mr-3 scale-75 md:scale-100">⏰</span> 30 mins daily — 90 mins saved!
+                    <span className="mr-3 scale-75 md:scale-100">⏰</span> 10 mins daily — 110 mins saved!
                   </p>
                   <p className="text-base md:text-lg font-bold font-display tracking-tight rainbow-text flex items-center">
                     <span className="mr-3 scale-75 md:scale-100">💰</span> ₹3,000+/month back in your pocket
@@ -201,11 +201,11 @@ export default function ComparisonSection() {
             viewport={{ once: true }}
             className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-display text-primary mb-6 md:mb-8 tracking-[-0.03em]"
           >
-            The Difference: <span className="rainbow-text">₹13,500 Saved</span> + <span className="rainbow-text">90 Minutes Daily</span>
+            The Difference: <span className="rainbow-text">₹13,500 Saved</span> + <span className="rainbow-text">110 Minutes Daily</span>
           </motion.h3>
           
           <p className="text-sm sm:text-base md:text-lg md:text-xl text-secondary max-w-2xl mx-auto mb-10 md:mb-12 font-normal">
-            Imagine what you could do with 90 extra minutes every day and ₹13,500 back in your pocket every year.
+            Imagine what you could do with 110 extra minutes every day and ₹13,500 back in your pocket every year.
           </p>
           
           <div className="flex flex-col items-center">
