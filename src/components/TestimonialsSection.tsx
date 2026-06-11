@@ -170,7 +170,7 @@ export default function TestimonialsSection() {
               {[...Array(5)].map((_, i) => <Star key={i} className="w-6 h-6 md:w-8 md:h-8 fill-current" />)}
             </div>
             <p className="text-lg md:text-xl font-bold text-gray-800 font-display tracking-[-0.03em]">4.9 out of 5 stars</p>
-            <p className="text-xs md:text-sm text-gray-400 font-normal tracking-normal">Based on 116 verified reviews</p>
+            <p className="text-xs md:text-sm text-gray-400 font-normal tracking-normal">Based on 993+ verified reviews</p>
           </div>
           
           <motion.p
