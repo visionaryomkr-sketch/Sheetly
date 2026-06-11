@@ -94,7 +94,7 @@ export default function SolutionSection() {
             <div className="absolute inset-0 bg-white/20 backdrop-blur-sm -z-10 rounded-[24px]"></div>
             <div className="relative bg-white rounded-[20px] overflow-hidden aspect-[4/3] md:aspect-[16/10] border border-gray-100">
               <ZoomableImage
-                src="/Images/service-business-dashboard.webp"
+                src="/Images/business-dashboards.webp"
                 alt="Sheetly Main Dashboard"
                 className="w-full h-full object-contain md:object-cover group-hover:scale-[1.02] transition-transform duration-700"
                 loading="lazy"
