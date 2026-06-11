@@ -73,13 +73,13 @@ export default function Hero() {
                 <span className="text-[#FACC15] mr-2">⭐⭐⭐⭐⭐</span> 4.9/5 Rating
               </div>
               <div className="flex items-center justify-center lg:justify-start text-[11px] sm:text-[12px] font-medium text-[#6B7280] tracking-normal">
-                <span className="bg-blue-100 p-1.5 rounded-md mr-2 text-blue-600">👥</span> 1000+ Businesses
+                <span className="bg-blue-100 p-1.5 rounded-md mr-2 text-blue-600">👥</span> 1,000+ Downloads
               </div>
               <div className="flex items-center justify-center lg:justify-start text-[11px] sm:text-[12px] font-medium text-[#6B7280] tracking-normal">
                 <span className="bg-orange-100 p-1.5 rounded-md mr-2 text-orange-600">🔒</span> Razorpay
               </div>
               <div className="flex items-center justify-center lg:justify-start text-[11px] sm:text-[12px] font-medium text-[#6B7280] tracking-normal">
-                <span className="bg-green-100 p-1.5 rounded-md mr-2 text-green-600">⚡</span> Instant
+                <span className="bg-green-100 p-1.5 rounded-md mr-2 text-green-600">⚡</span> Instant Download
               </div>
             </div>
           </motion.div>
