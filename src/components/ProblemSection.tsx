@@ -4,7 +4,7 @@ const problems = [
   {
     icon: "💸",
     title: "The Subscription Trap",
-    description: "You signed up for Notion to organize clients. Then some invoicing app. Then an accounting tool for GST. ₹3,000–5,000 leaves your account every month. Automatically. Silently. And somehow — your business still runs on Excel.",
+    description: "₹2,000-5,000 every single month on Notion, ClickUp, Airtable, Calendly, and 5 other tools. That's ₹60,000+ per year just for software you barely use 20% of.",
     color: "bg-red-100"
   },
   {
