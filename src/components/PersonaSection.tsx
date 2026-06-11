@@ -60,7 +60,7 @@ export default function PersonaSection() {
       avatar: "👨‍💻",
       title: "The Agency Owner",
       subtitle: "Marketing • Design • Digital",
-      description: "Managing 5–15 clients, a growing team, and multiple project deadlines can quickly become overwhelming. When client communication, team tasks, and invoices are scattered across WhatsApp and spreadsheets, staying organized becomes a challenge.",
+      description: "Managing 5 – 15 clients, a growing team, and multiple project deadlines can quickly become overwhelming. When client communication, team tasks, and invoices are scattered across WhatsApp and spreadsheets, staying organized becomes a challenge.",
       gradientColor: "#8B5CF6",
       tags: ["TEAM MANAGEMENT", "CLIENT TRACKING", "PROFESSIONAL INVOICING"]
     },
