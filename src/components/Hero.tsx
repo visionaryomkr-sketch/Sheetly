@@ -39,7 +39,7 @@ export default function Hero() {
 
             {/* Feature Pills */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 mb-10">
-              {["Built Specifically for Indian", "Setup in 10 Minutes — Not 30 days", "One-Time Payment — No monthly fees. Ever.", "GST-Ready — Tax season stress gone forever","Professional PDF Invoicing — Branded & auto-numbered", "Professional PDF Invoicing — Branded & auto-numbered"].map((text) => (
+              {["Built Specifically for Indian", "Setup in 10 Minutes — Not 30 days", "One-Time Payment — No monthly fees. Ever.", "GST Auto-Calculated — Tax season stress gone forever","Professional PDF Invoicing — Branded & auto-numbered"].map((text) => (
                 <span key={text} className="px-3 py-1 bg-gray-50 border border-gray-100 rounded-full text-[11px] sm:text-[13px] font-medium text-gray-600 italic flex items-center tracking-normal">
                   ✅ {text}
                 </span>
