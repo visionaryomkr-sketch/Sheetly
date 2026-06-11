@@ -81,7 +81,7 @@ export default function PersonaSection() {
       tags: ["SESSION TRACKING", "FEE MANAGEMENT", "CLIENT PROGRESS"]
     },
     {
-      avatar: "📸",
+      avatar: "🙋🏻‍♂️",
       title: "The Consultant",
       subtitle: "Business • HR • Finance • Legal",
       description: "Retainer clients, project deadlines, reports, and follow-ups demand a professional system. Deliver exceptional client experiences while keeping every engagement organized and on schedule.",
@@ -161,7 +161,7 @@ export default function PersonaSection() {
         >
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary mb-4 font-display tracking-[-0.03em]">Don't See Your Profession?</h3>
           <p className="text-sm sm:text-base md:text-lg text-secondary max-w-2xl mx-auto mb-8 md:mb-10 font-normal tracking-normal">
-            Don't see your business type? Sheetly works for ANY business: → Retail, Trading, Manufacturing → Service, Agency, Consultancy. → Digital, E-commerce. → Coaching, Training. → Any business with clients, money, and team. If that sounds like you — Sheetly is for you.
+            Sheetly works for any business where you have clients, a team, and money to manage. If you send invoices — if you track payments — if you manage a team — Sheetly is built for you.
           </p>
           
           <motion.a
