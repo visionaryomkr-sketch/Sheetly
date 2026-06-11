@@ -284,7 +284,7 @@ export default function TestimonialsSection() {
               <div className="bg-white/50 p-2 rounded-xl inline-block mb-3">
                 <Quote className="w-6 md:w-8 h-6 md:h-8 text-pink-600" />
               </div>
-              <Counter value={1.5} label="Saved by Users" prefix="₹" suffix="Th+" decimals={1} />
+              <Counter value={1.5} label="Saved by Users" prefix="₹" suffix="k+" decimals={1} />
             </div>
             <div className="text-center">
               <div className="bg-white/50 p-2 rounded-xl inline-block mb-3">
