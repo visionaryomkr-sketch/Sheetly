@@ -57,32 +57,32 @@ const PersonaCard: React.FC<PersonaCardProps> = ({ avatar, title, subtitle, desc
 export default function PersonaSection() {
   const personas = [
     {
-      avatar: "🏪",
-      title: "RETAIL BUSINESSES",
-      subtitle: "Designer • Developer • retail outlets",
-      description: "Track all supplier payments, Manage customer relationships, GST calculations automatic, Team task coordination. If this is you: BizPrime is built for you.",
+      avatar: "👨‍💻",
+      title: "The Freelancer",
+      subtitle: "Designer • Developer • writer",
+      description: "Managing 3-10 active clients across multiple projects. Tired of juggling spreadsheets, payment trackers, and to-do apps.",
       gradientColor: "#8B5CF6",
       tags: ["Multiple clients", "Project tracking", "Invoicing"]
     },
     {
-      avatar: "📦",
-      title: "TRADING COMPANIES",
-      subtitle: "Import/Export • wholesale • distribution",
-      description: "Track purchases & sales, manage party accounts, GST auto-calculations, Team task management.",
+      avatar: "👩‍💼",
+      title: "The Agency Owner",
+      subtitle: "Marketing • Design • Consulting",
+      description: "Managing 5 to 15 clients, a growing team, and multiple project deadlines can quickly become overwhelming. When client communication, team tasks, and invoices are scattered across WhatsApp and spreadsheets, staying organized becomes a challenge.",
       gradientColor: "#EC4899",
-      tags: ["Team management", "Project coordination", "Financial tracking"]
+      tags: ["Team management", "CLIENT TRACKING", "PROFESSIONAL INVOICING"]
     },
     {
-      avatar: "🛠️",
-      title: "SERVICE COMPANIES",
-      subtitle: "Agencies • consultancies • agencies",
-      description: "Manage all client relationships. Track project progress, Send professional invoices, Team coordination.",
+      avatar: "🎯",
+      title: "The Solopreneur",
+      subtitle: "Coach • Course Creator • Online Service",
+      description: "Running a one-person business that needs to look like a team. Premium pricing, premium feel, professional systems.",
       gradientColor: "#F97316",
       tags: ["Personal brand", "Premium clients", "Time-saving"]
     },
     {
-      avatar: "💻",
-      title: "DIGITAL BUSINESSES",
+      avatar: "📸",
+      title: "The Creative Pro",
       subtitle: "D2C brands • e-commerce • online stores",
       description: "Track all orders and payments, Manage customer communications, GST auto-calculations. Professional invoicing.",
       gradientColor: "#FACC15",
