@@ -11,7 +11,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "Is this a one-time payment or a subscription?",
-    answer: "It's a one-time payment of ₹899 only. No monthly fees, no hidden costs. You get lifetime access to the entire system and all future updates for free."
+    answer: "It's a one-time payment of ₹499 only. No monthly fees, no hidden costs. You get lifetime access to the entire system and all future updates for free."
   },
   {
     question: "Do I need to be an Excel expert to use this?",
