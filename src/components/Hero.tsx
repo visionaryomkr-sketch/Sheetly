@@ -96,7 +96,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-white/20 backdrop-blur-sm -z-10 rounded-[20px]"></div>
                 <div className="relative bg-white rounded-[16px] overflow-visible aspect-[4/3] md:aspect-auto border border-gray-100">
                   <ZoomableImage
-                    src="/Images/hero-image.webp"
+                    src="/Images/hero-images.webp"
                     alt="Sheetly Business Dashboard Mockup"
                     className="w-full h-auto max-w-full object-contain group-hover:scale-[1.02] transition-transform duration-700"
                     loading="lazy"
