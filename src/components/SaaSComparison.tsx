@@ -4,8 +4,8 @@ import { CheckCircle2, XCircle, ArrowRight, DollarSign, Wallet } from "lucide-re
 import { PAYMENT_URL, PRODUCT_PRICE } from "../constants";
 
 const comparisonData = [
-  { feature: "Cost (Yearly)", notion: "₹9,600+", others: "₹15,000-24,000+", sheetly: "₹899 ONCE ✅", highlight: true },
-  { feature: "5-Year Total Cost", notion: "₹48,000", others: "₹75,000-1,20,000", sheetly: "Still ₹899 ✅", highlight: true },
+  { feature: "Cost (Yearly)", notion: "₹9,600+", others: "₹15,000-24,000+", sheetly: "₹499 ONCE ✅", highlight: true },
+  { feature: "5-Year Total Cost", notion: "₹48,000", others: "₹75,000-1,20,000", sheetly: "Still ₹499 ✅", highlight: true },
   { feature: "Time to Master", notion: "1 month", others: "2-4 weeks", sheetly: "5 minutes ✅" },
   { feature: "Setup & Configuration", notion: "Hours of work", others: "Days of setup", sheetly: "Instant ✅" },
   { feature: "INR & GST Support", notion: "❌ No", others: "❌ Limited", sheetly: "✅ Built-in" },
@@ -47,7 +47,7 @@ export default function SaaSComparison() {
           </motion.h2>
           
           <p className="text-base md:text-xl text-secondary max-w-2xl mx-auto font-normal">
-            Why pay ₹2,000/month forever when you can pay ₹899 ONCE? See the brutal truth in numbers.
+            Why pay ₹2,000/month forever when you can pay ₹499 ONCE? See the brutal truth in numbers.
           </p>
         </div>
 
