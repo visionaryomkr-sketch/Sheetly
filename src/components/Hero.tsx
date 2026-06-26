@@ -34,7 +34,7 @@ export default function Hero() {
 
             {/* Sub-headline */}
             <p className="text-base md:text-xl text-[#6B7280] leading-relaxed max-w-lg mb-8 font-normal">
-              Stop paying monthly for 5 different tools. Sheetly replaces all of them — in one spreadsheet. One-time ₹499. Lifetime access. Zero subscriptions.
+              Stop paying monthly for 5 different tools. Sheetly replaces all of them — in one spreadsheet. One-time ₹899. Lifetime access. Zero subscriptions.
             </p>
 
             {/* Feature Pills */}
